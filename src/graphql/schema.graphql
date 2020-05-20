@@ -447,3 +447,12 @@ type AddressEdge {
   "The address"
   node: Address
 }
+
+"A translated field input"
+input FieldByLanguageInput {
+  "The translated content"
+  content: String!
+
+  "The language of the translated content"
+  language: String!
+}
